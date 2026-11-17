@@ -1,0 +1,44 @@
+# Compiled binaries (Hasil kompilasi mikrokontroler)
+*.o
+*.bin
+*.elf
+*.hex
+*.map
+*.out
+*.obj
+
+# Trash / File Sampah Umum
+*.bak
+*.~*
+
+# IAR Settings (Konfigurasi Workspace Lokal IAR)
+**/settings/*.crun
+**/settings/*.dbgdt
+**/settings/*.cspy
+**/settings/*.cspy.*
+**/settings/*.xcl
+**/settings/*.dni
+**/settings/*.wsdt
+**/settings/*.wspos
+**/settings/
+
+# IAR Output Directories (Sangat disarankan pakai **/ agar mencakup semua sub-folder)
+**/Debug/
+**/Release/
+**/Exe/*.sim
+**/Obj/
+
+# IAR Backup & Dependency files
+Backup*
+*.dep
+
+# Mengabaikan file konfigurasi folder Windows di semua tingkat folder
+**/desktop.ini
+**/Thumbs.db
+
+# Mengabaikan file sistem Mac (jika proyek dibuka di Mac suatu saat nanti)
+**/.DS_Store
+
+# Tambahkan folder dependency/hasil build Anda di bawah ini (opsional)
+# node_modules/
+# .env
